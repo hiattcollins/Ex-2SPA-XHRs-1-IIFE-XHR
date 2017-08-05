@@ -1,0 +1,26 @@
+[
+	{
+		"Name": "Tiger",
+		"Habitat": "Terrestrial"
+	},
+
+	{
+		"Name": "Lion",
+		"Habitat": "Terrestrial"
+	},
+
+	{
+		"Name": "Shark",
+		"Habitat": "Acquatic"
+	},
+
+	{
+		"Name": "Eagle",
+		"Habitat": "Terrestrial"
+	},
+
+	{
+		"Name": "Wolf",
+		"Habitat": "Terrestrial"
+	}
+]
