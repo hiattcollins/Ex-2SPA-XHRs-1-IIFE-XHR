@@ -1,0 +1,26 @@
+[
+	{
+		"Name": "Rabbit",
+		"Habitat": "Terrestrial"
+	},
+
+	{
+		"Name": "Giraffe",
+		"Habitat": "Terrestrial"
+	},
+
+	{
+		"Name": "Water Buffalo",
+		"Habitat": "Terrestrial"
+	},
+
+	{
+		"Name": "Deer",
+		"Habitat": "Terrestrial"
+	},
+
+	{
+		"Name": "Antelope",
+		"Habitat": "Terrestrial"
+	}
+]
