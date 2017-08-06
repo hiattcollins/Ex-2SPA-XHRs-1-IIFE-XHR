@@ -6,19 +6,19 @@ var Predator = (function (getJSONdata) {
   var herbivores = [];
 
   return {
-		sendNotice: function (someinfo) {
+		// sendNotice: function (someinfo) {
 
-			var theMeat = "HAM"; 
-			// var newMeat = someinfo;
-    	console.log("sendNotice triggered");
-    	console.log("someinfo", someinfo);
+		// 	var theMeat = "HAM"; 
+		// 	// var newMeat = someinfo;
+  //   	console.log("sendNotice triggered");
+  //   	console.log("someinfo", someinfo);
 
-			var someinforesult = someinfo(theMeat);    	
+		// 	var someinforesult = someinfo(theMeat);    	
 
-			return someinfo;
-    	// return theMeat;
-    	// return newMeat;
-    },
+		// 	return someinfo;
+  //   	// return theMeat;
+  //   	// return newMeat;
+  //   },
 
     loadCarnivores: function (callbackToInvoke) {
       var loader = new XMLHttpRequest();
@@ -62,6 +62,8 @@ var Predator = (function (getJSONdata) {
       	console.log("messages loaded successfully");
         herbivores = JSON.parse(this.responseText);
         console.log("herbivores", herbivores);
+
+        callbackToInvoke(herbivores);
 
     	});
 
